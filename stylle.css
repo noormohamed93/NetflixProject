@@ -1,0 +1,138 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-color:white;
+}
+header{
+    height: 250px;;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images (6).jpeg.jpg");
+    background-position: center ;
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+width: auto;
+overflow: auto;
+}
+nav{
+    float: right;
+    margin-top:0%;
+}
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+nav ul li  {
+display: inline-block;
+list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+     padding: 5px 20px;
+ }
+ nav ul .navbar{
+    border: 1px solid #fff;
+}
+nav ul li a {
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 18px;
+}
+
+ .center h1{
+     color: floralwhite;
+     margin-left: 550px;
+ }
+ .group{
+     background-color:lavender;
+ }
+ .centeral{
+     background-color: lavender;
+ }
+a{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+    border: 1 px solid transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 48px;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+a :hover{
+    color:#e50914 ;
+    text-decoration: underline;
+}
+.btn-1{
+    background-color:#e50914  ;
+    border: 1px solid #e50914 ;
+}
+.btn-1 a{
+    color:#fff;
+}
+.btn-2:hover{
+   background-color:#e50914 ;
+    border : 1px solid #e50914;
+   }
+.Manage ul li a {
+    font-size: large;
+}
+.Manage ul li  :hover{
+    text-decoration: underline;
+    color: #e50914 ;
+}
+.watching ul li a {
+    font-size: large;
+}
+.watching ul li  :hover{
+    text-decoration: underline;
+    color: #e50914 ;
+}
+.quick ul li a {
+    font-size: large;
+}
+.quick ul li  :hover{
+    text-decoration: underline;
+    color: #e50914 ;
+}
+.cant ul li a {
+    
+    font-size: large;
+}
+.cant ul li  :hover{
+    text-decoration: underline;
+    color: #e50914 ;
+} 
+.getting ul li a {
+    font-size: large;
+}
+.getting ul li  :hover{
+    text-decoration: underline;
+    color: #e50914 ;
+}
+ .contact {
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    color: white;
+    padding: 50px;
+    background-color: black;
+    text-align: right;
+}
+.dropdown{
+    color: white;
+    float: left;
+  }
+  .ss{
+      color: white;
+    display: inline;
+    padding: 20px;
+    padding-top: 30px;
+}

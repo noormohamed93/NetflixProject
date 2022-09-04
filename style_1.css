@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.logo img{
+    height: 45px;
+    width: 167px;
+}
+.header{
+    padding: 20px 50px;
+    position: relative;
+    /* z-index: 10; */
+   
+} 
+.wrapper{
+    background-image: url(./images/background.jpg);
+     height: 1100px; 
+    width: 100%;
+}
+.wrapper::before {
+    content: "";
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.login_box{
+    padding: 60px 68px 40px ;
+
+}
+
+.login_body{
+    max-width: 450px;
+    height: 660px;
+    margin: auto;
+    background: rgba(0, 0, 0, .75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+   
+}
+.login_body h2 {
+    font-size: 32px;
+    color: white;
+    margin: 0 0 28px;
+    
+}
+.login_body input{
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    color: white;
+    background: #333;
+    border: 1px solid #333;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+.input_one, .input_two{
+    margin-bottom: 15px;
+
+}
+
+.input{
+    margin: 23px -15px -5px;
+    padding: 16px;
+    width: 313px;
+}
+.input button{
+    font-size: 20px; ;
+}
+.input button:hover {
+    cursor: pointer;
+}
+
+.login_body button{
+    height: 50px;
+    width: 100%;
+    color: white;
+    background: #e50914;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #e50914;
+}
+.support{
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 12px;
+
+}
+.support input{
+    width: 15px;
+    height: 15px;
+
+}
+.remember{
+    display: flex;
+    align-items: center;
+    margin-bottom: 54px;
+}
+.need_help a{
+    text-decoration: none;
+    color: #757575;
+    position: relative;
+    font-size: 13px;
+}
+.need_help a:hover {
+    text-decoration: underline;
+}
+.check{
+    margin: 0;
+    padding: 0;
+    height: 13px;
+}
+
+.remember span {
+    margin-right: 10px;
+    height: 25px;
+
+}
+
+
+.login_facbook img{
+    width: 20px;
+    height: 20px;
+}
+.login_facbook{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+}
+.login_facbook span {
+    margin-right: 10px;
+    font-size: 12px;
+    
+}
+
+.login_facbook span a{
+    text-decoration:none;
+    color: #737373;
+    font-size: 13px;
+
+}
+.sign_up{
+    color: #737373;
+    font-size: 16px;
+    margin: 16px 0 0;
+
+}
+.sign_up a:hover ,
+.terms a:hover{
+    text-decoration: underline;
+}
+
+.sign_up a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.terms{
+    color: #8c8c8c;
+    font-size: 13px;
+    margin: 13px 0;
+
+}
+.terms a{
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.footer {
+      padding: 30px 0;
+      height: 198px;
+      background: rgba(0, 0, 0, .75);
+      margin-top: 93px;
+}
+.foot_one{
+     padding: 8px;
+     margin-left: 250px;
+     margin-top: -6px;
+
+}
+.foot_2{
+    color: #757575;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 22px;
+}
+.flex_2{
+    display: flex;
+   margin-top: 22px;
+   margin-left: 255px;
+  
+
+}
+.foot_3{
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+}
+.foot_4{
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+}
+.foot_5{
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    margin-left: 165px;
+}
+select {
+    position: relative;
+    background-color: rgba(0, 0, 0, .75);
+    color: #757575;
+    padding: 12px;
+    margin-left: 258px;
+    margin-top: 27px;
+}
+
